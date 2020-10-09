@@ -1,0 +1,44 @@
+.home-main-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 0.50;
+}
+
+.home-main-section .image-wrapper{
+    flex-grow: 1;
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.home-main-section .lady-image{
+    display: flex;
+    opacity: .9;
+    max-height: 100vh;
+    min-width:30vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom left; 
+    justify-content: flex-start;
+    align-items: flex-start;
+    transform: translateX(-10%);
+}
+
+.home-main-section .call-to-action{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: center;
+    margin-bottom: 300px;
+    float: left;
+}
+
+.background-piano{
+    background-image: url("Images/kisspng-musical-note-musical-theatre-g-clef-enjoy-singing-ampquotam-5cfe19969c4e28.4150101715601565666402.png");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    z-index: 0;
+    -webkit-backdrop-filter: blur(50%);
+}
