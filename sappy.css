@@ -28,6 +28,11 @@ body{
     background-position: center;
     border: 1px solid #020D13;
     position: relative;
+    -webkit-filter: none;
+    -moz-filter: none;
+    -ms-filter: none;
+    -o-filter: none;
+    filter: none;
 }
 
 .img1{ background-image: url(Images/dhatrimaitriflower.jpeg);}
@@ -48,15 +53,38 @@ body{
     text-transform: uppercase;
     font-family: 'Montserrat Subrayada', sans-serif;
     white-space: nowrap;
+    -webkit-filter: none;
+    -moz-filter: none;
+    -ms-filter: none;
+    -o-filter: none;
+    filter: none;
 }
 
-.img-accordion:hover .img{ transform: skew(0) };
+.img-accordion:hover .img{ transform: skew(0);     
+    -webkit-filter: none;
+    -moz-filter: none;
+    -ms-filter: none;
+    -o-filter: none;
+    filter: none;
+}
 
-.img:hover{ flex:5;}
+.img:hover{ 
+     flex:5; 
+    -webkit-filter: none;
+    -moz-filter: none;
+    -ms-filter: none;
+    -o-filter: none;
+    filter: none;
+}
 
 .img:hover p{
     background-color: #D9DBBC;
     border:2px solid #FCDDBC;
     color: #222;
     transform: rotate(0deg);
+    -webkit-filter: none;
+    -moz-filter: none;
+    -ms-filter: none;
+    -o-filter: none;
+    filter: none;
 }
