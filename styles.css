@@ -10,6 +10,11 @@ body {
     font-size: 1.25rem;
     color: #B8D8BA;
     min-height: 100vh;
+    background-image: url(Images/note-12.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1;
 }
 
 .full-height-grow {
@@ -21,6 +26,8 @@ body {
     margin: 0;
     padding: 0;
     list-style: none;
+    margin-right: -100px;
+    margin-top: 20px;
 }
 
 .links1 a{
@@ -50,10 +57,10 @@ body {
 
 .title{
     font-weight: 450;
-    font-size:5em;
+    font-size:4.8em;
     margin-bottom: 1rem;
-    margin-top: 0;
-    margin-left: -350px;
+    margin-top: 50px;
+    margin-left: -210px;
 }
 
 .subtitle {
@@ -61,10 +68,12 @@ body {
     font-size:2.5em;
     margin-bottom: 1rem;
     margin-top: 0;
-    margin-left: -350px;
+    margin-left: -206px;
+    margin-top: 25px;
 }
 
 .btn{
+    margin-top: 50px;
     color: #B8D8BA;
     background-color: #D4213F;
     padding: 12px;
@@ -81,10 +90,20 @@ body {
 }
 
 .btn:hover {
-    background-color: #8D162A;
     text-decoration: none;
+    animation-name: button;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
 }
 
+@keyframes button{
+    50%{
+        background-color: #7C1325;
+    }
+    100%{
+        background-color: #020D13;
+    }
+}
 .aarohan-logo{
     justify-content: left;
     font-size: 150%;
@@ -99,5 +118,7 @@ body {
 }
 
 .sappy-para{
-    font-size: 35px;
+    margin-top: 25px;
+    font-size: 30px;
+    margin-left: -200px;
 }
