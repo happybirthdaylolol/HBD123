@@ -6,6 +6,9 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url(Images/note-12.png);
+    background-position: center;
+    background-size: cover;
 }
 
 .img-accordion{
