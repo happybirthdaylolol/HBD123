@@ -15,6 +15,8 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     z-index: -1;
+    -moz-user-select: none;
+
 }
 
 .full-height-grow {
@@ -61,6 +63,8 @@ body {
     margin-bottom: 1rem;
     margin-top: 50px;
     margin-left: -210px;
+    -moz-user-select: none;
+
 }
 
 .subtitle {
@@ -70,6 +74,7 @@ body {
     margin-top: 0;
     margin-left: -206px;
     margin-top: 25px;
+    -moz-user-select: none;
 }
 
 .btn{

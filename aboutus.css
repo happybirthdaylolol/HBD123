@@ -23,6 +23,8 @@ h1{
     justify-content: center;
     text-decoration: underline;
     color: #B8D8BA;
+    margin-right: 30px;
+    margin-top: -10px;
 }
 
 .top{
@@ -46,17 +48,15 @@ h2{
     margin-bottom: 310px;
     animation-name: breathe;
     animation-duration: 5s;
+    animation-play-state: running;
 }
 
-@keyframes breathe{
-    0%{
-        font-variation-settings: 'wght' 300;
-    }
-    50%{
-        font-variation-settings: 'wght' 700;
-    }
+h2:hover{
+    -moz-user-select: none;
+    background-image: url("https://media.giphy.com/media/3oz8xus1ykCFgxW2ac/giphy.gif");
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
-
 .aarohan-logo1{
     justify-content: left;
     font-size: 2.3em;
@@ -66,5 +66,5 @@ h2{
     text-decoration: none;
     color: white;
     font-weight: 600;
-    margin-left: -100px;
+    margin-top: -15px;
 }
