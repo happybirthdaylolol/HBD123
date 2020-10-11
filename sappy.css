@@ -1,4 +1,5 @@
 *{margin: 0; padding: 0; box-sizing: border-box;}
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500&display=swap');
 
 body{
     background: #1B1C38; 
@@ -35,15 +36,15 @@ body{
     filter: none;;
 }
 
-.img1{ background-image: url(Images/dhatrimaitriflower.jpeg);  filter: blur(5px);
+.img1{ background-image: url(Images/dhatrimaitriflower.jpeg); filter: grayscale();
 }
-.img2{ background-image: url(Images/dhatihighschool.jpeg); filter: blur(5px);
+    .img2{ background-image: url(Images/dhatihighschool.jpeg); filter: grayscale();  
 }
-.img3{ background-image: url(Images/dhatriguitar1.jpeg); filter: blur(5px);
+    .img3{ background-image: url(Images/dhatriguitar1.jpeg); filter: grayscale();  
 }
-.img4{ background-image: url(Images/dhatriold.jpeg); filter: blur(5px);
+    .img4{ background-image: url(Images/dhatriold.jpeg); filter: grayscale();  
 }
-.img5{ background-image: url(Images/dhatridonttellme.jpeg); filter: blur(5px);
+    .img5{ background-image: url(Images/dhatridonttellme.jpeg); filter: grayscale();  
 }
 
 .img1:hover{
@@ -95,7 +96,8 @@ body{
     transform-origin: 0% 0%;
     transition: all 0.3s;
     text-transform: uppercase;
-    font-family: 'Montserrat Subrayada', sans-serif;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
     white-space: nowrap;
     -webkit-filter: none;
     -moz-filter: none;
@@ -110,7 +112,13 @@ body{
      flex:5; }
 
 .img:hover p{
-    background-color: #D9DBBC;
+    background-color: #D4213F;
     border:2px solid #FCDDBC;
-    color: #222;
+    color: #D9DBBC;
     transform: rotate(0deg);}
+
+    h3{
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+    }

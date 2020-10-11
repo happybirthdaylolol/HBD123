@@ -52,3 +52,16 @@ body {
     margin-left: -20px;
 }
 
+.spotify{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: #B8D8BA;
+}
+
+.spotify:hover{
+    background-image: url("https://media.giphy.com/media/BfWLUK9MyFVRK/giphy.gif");
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
