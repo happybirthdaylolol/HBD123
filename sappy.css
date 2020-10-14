@@ -36,7 +36,7 @@ body{
     filter: none;;
 }
 
-.img1{ background-image: url(Images/dhatrigaurischool2.jpeg); filter: grayscale();
+.img1{ background-image: url(Images/dhatrigaurischool1.jpeg); filter: grayscale();
 }
     .img2{ background-image: url(Images/dhatrigang.jpeg); filter: grayscale();  
 }
