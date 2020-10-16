@@ -52,7 +52,7 @@ body {
     align-items: center;
     text-decoration: none;
     color: white;
-    font-weight: 300;
+    font-weight: 500;
     margin-top: -15px;
     margin-left: -20px;
 }
@@ -63,9 +63,11 @@ body {
     text-decoration: none;
     font-size: 3em;
     padding-left: 500px;
+    color: #FCDDBC;
 }
 
 .giphy{
+    position: relative;
     padding-left: 50px;
     margin-top: -70px;
 }
@@ -77,4 +79,20 @@ body {
 
 .sub-content p{
     padding-left: 15px;
+    padding-right: 15px;
+    margin-top: -15px;
+    font-size: 1.4em;
+    color: #FCDDBC;
+}
+
+.para2{
+    font-family: 'Permanent Marker', sans-serif;
+    font-size: 1.5em;
+    justify-content: right;
+    text-align: right;
+    margin-right: 150px;
+    margin-top: -120px;
+    color: transparent;
+    background-image: url(https://media.giphy.com/media/SwUQoxoNg5DONS4ysK/giphy.gif);
+    background-clip: text;
 }
