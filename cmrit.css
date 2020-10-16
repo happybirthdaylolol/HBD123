@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background: #1B1C38; 
+    font-family: 'Heebo', sans-serif;
+    font-size: 1.25rem;
+    color: #B8D8BA;
+    min-height: 100vh;
+    background-image: url(Images/note-12.png);
+    background-position: center;
+}
+
+.main-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.links1 ul{
+    display: flex;
+    margin: 0;
+    list-style: none;
+    margin-top: 40px;
+    font-size: 1.25em;
+    margin-right: 30px;
+}
+
+.links1 a{
+    color: inherit;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+.links1 a:hover{
+    color: #61a866;
+}
+
+.aarohan-logo{
+    justify-content: left;
+    font-size: 150%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    margin-top: -15px;
+    margin-left: -20px;
+}
+
+.title{
+    font-family: 'Tahu!', 'Lobster', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    font-size: 3em;
+    padding-left: 500px;
+    color: #FCDDBC;
+}
+
+.giphy{
+    position: relative;
+    padding-left: 50px;
+    margin-top: -70px;
+}
+
+.sub-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.sub-content p{
+    padding-left: 20px;
+    padding-right: 15px;
+    margin-top: -15px;
+    font-size: 1.4em;
+    color: #FCDDBC;
+}
+
+.para2{
+    font-family: 'Permanent Marker', sans-serif;
+    font-size: 1.5em;
+    justify-content: right;
+    text-align: right;
+    margin-right: 150px;
+    color: transparent;
+    background-image: url(https://media.giphy.com/media/22Q8o3aQbyx7ifKXYx/giphy.gif);
+    background-clip: text;
+}
