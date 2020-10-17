@@ -1,0 +1,130 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body{
+    background: #1B1C38; 
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(Images/note-12.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.img-accordion{
+    width: 90%; height: 80vh;
+    display: flex;
+    margin-left: 80px;
+}
+
+.img{
+    flex: 1;
+    height: 100%;
+    transform: skew(5deg);
+    cursor: pointer;
+    margin: 0 2px;
+    transition: all 0.3s;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid #020D13;
+    position: relative;
+    -webkit-filter: none;
+    -moz-filter: none;
+    -ms-filter: none;
+    -o-filter: none;
+    filter: none;;
+}
+
+.img1{ background-image: url(Images/dhatrimaitri.jpeg); filter: grayscale();
+}
+    .img2{ background-image: url(Images/dhatrigauri1.jpeg); filter: grayscale();  
+}
+    .img3{ background-image: url(Images/dhatriguitar1.jpeg); filter: grayscale();  
+}
+    .img4{ background-image: url(Images/soorajdhatri1.jpeg); filter: grayscale();  
+}
+    .img5{ background-image: url(Images/dhatridonttellme.jpeg); filter: grayscale();  
+}
+
+.img1:hover{
+    -webkit-filter: none;
+    -moz-filter: none;
+    -ms-filter: none;
+    -o-filter: none;
+    filter: none;
+}
+
+.img2:hover{
+    -webkit-filter: none;
+    -moz-filter: none;
+    -ms-filter: none;
+    -o-filter: none;
+    filter: none;
+}
+
+.img3:hover{
+    -webkit-filter: none;
+    -moz-filter: none;
+    -ms-filter: none;
+    -o-filter: none;
+    filter: none;
+}
+
+.img4:hover{
+    -webkit-filter: none;
+    -moz-filter: none;
+    -ms-filter: none;
+    -o-filter: none;
+    filter: none;
+}
+
+.img5:hover{
+    -webkit-filter: none;
+    -moz-filter: none;
+    -ms-filter: none;
+    -o-filter: none;
+    filter: none;
+}
+.img p{
+    position: absolute;
+    bottom: 0; left: 0;
+    padding: 10px;
+    background-color: #D4213F;
+    color: #fff;
+    transform: rotate(-90deg);
+    transform-origin: 0% 0%;
+    transition: all 0.3s;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    white-space: nowrap;
+    -webkit-filter: none;
+    -moz-filter: none;
+    -ms-filter: none;
+    -o-filter: none;
+    filter: none;
+}
+
+.img-accordion:hover .img{ transform: skew(0); }
+
+.img:hover{ 
+     flex:5; }
+
+.img:hover p{
+    background-color: #D4213F;
+    border:2px solid #FCDDBC;
+    color: #D9DBBC;
+    transform: rotate(0deg);}
+
+.title2{
+    font-size: 2em;
+    color: #D9DBBC;
+    font-family: 'Tahu!';
+    text-align: center;
+}
