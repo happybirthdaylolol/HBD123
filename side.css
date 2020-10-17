@@ -19,7 +19,7 @@ body{
 .img-accordion{
     width: 90%; height: 80vh;
     display: flex;
-    margin-left: 80px;
+    margin-left: 65px;
 }
 
 .img{
@@ -127,4 +127,5 @@ body{
     color: #D9DBBC;
     font-family: 'Tahu!';
     text-align: center;
+    padding-bottom: 30px;
 }
