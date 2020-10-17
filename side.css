@@ -45,9 +45,9 @@ body{
 }
     .img2{ background-image: url(Images/dhatrigauri1.jpeg); filter: grayscale();  
 }
-    .img3{ background-image: url(Images/cmrit9.jpg); filter: grayscale();  
+    .img3{ background-image: url(Images/charudhatri.jpeg); filter: grayscale();  
 }
-    .img4{ background-image: url(Images/soorajdhatri1.jpeg); filter: grayscale();  
+    .img4{ background-image: url(Images/soorajdhatri4.JPG); filter: grayscale();  
 }
     .img5{ background-image: url(Images/dhatridonttellme.jpeg); filter: grayscale();  
 }
@@ -123,6 +123,7 @@ body{
     transform: rotate(0deg);}
 
 .title2{
+    font-weight: 700;
     font-size: 2em;
     color: #D9DBBC;
     font-family: 'Tahu!';
